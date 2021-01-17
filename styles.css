@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Nasalization';
+    src: local('Nasalization'), url(./fonts/nasalization-rg.ttf) format('ttf');
+  }
+ul {
+  /* margin: 150px auto 0;  */
+  padding: 0;
+  list-style: none;
+  display: table;
+  /* width: 600px; */
+  text-align: center;
+}
+li {
+  display: table-cell;
+  position: relative;
+  /* padding: 15px 0; */
+}
+a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+
+  display: inline-block;
+  padding: 15px 0px;
+  position: relative;
+}
+a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #44d62c;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover {
+  color: #44d62c;
+}
+a:hover:after {
+  width: 50%;
+  left: 23%;
+}
+span#intro1:before {
+  content: "AT ALIEN MEDIA";
+  font-size: 1.125rem;
+  font-family: 'Nasalization', Courier, monospace;
+  font-weight: bold;
+  display: flex;
+  opacity: 75;
+  transform: scale(1.2);
+  background-color: #44d62c;
+  -webkit-background-clip: text;
+  color: transparent;
+}
