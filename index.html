@@ -21,14 +21,15 @@
 </head>
 
 <body>
+    <!-- Header -->
     <div class="fixed z-10 w-full py-5" style="background-color: #141414;">
         <nav class="container mx-auto">
             <div class="flex flex-row items-center justify-around w-full">
                 <div>
                     <img src="./assets/logo-light.png" alt="">
                 </div>
-                <div>
-                    <ul class="text-white uppercase flex flex-row gap-20">
+                <div class="nav">
+                    <ul class="text-white uppercase flex flex-row gap-20 font-Nasalization">
                         <li class="text-white uppercase"><a href="">Home</a></li>
                         <li class="text-white uppercase"><a href="">about us</a></li>
                         <li class="text-white uppercase"><a href="">service</a></li>
@@ -38,87 +39,139 @@
                     </ul>
                 </div>
                 <div>
-                    <span class="text-white"><a href="">tel:+84913373606</a></span>
+                    <span class="text-white font-Nasalization"><a href="">tel:+84913373606</a></span>
                 </div>
             </div>
         </nav>
     </div>
+    <!-- Fullpage init -->
     <div id="fullpage">
-        <div class="section min-h-screen w-full bg-cover" id="section1"
-            style="background-image: url('./assets/astraunut-bg.png');">
-            <div class="absolute -top-10 w-full" style="left: 45%; z-index: 999999;">
-                <img src="./assets/astraunut.png" class="animate-pulse" style="width: 72vh;" alt="">
-
-            </div>
-            <div class="flex flex-row justify-center items-center gap-10 pt-20">
-                <div class="flex flex-col items-center w-1/2 gap-4">
-                    <span id="intro1" class="uppercase text-mygreen font-Nasalization">at alien media</span>
-                    <div class="w-16 border-b-2">
+        <!-- Home -->
+            <div class="section min-h-screen w-full bg-cover" id="section1"
+                style="background-image: url('./assets/astraunut-bg.png');">
+                <div class="absolute -top-10 w-full pointer-events-none" style="left: 45%; z-index: 999999;">
+                    <img src="./assets/astraunut.png" class="animate-pulse" style="width: 72vh;" alt="">
+                </div>
+                <div class="flex flex-row justify-center items-center gap-10 pt-20">
+                    <div class="flex flex-col items-center w-1/2 gap-4">
+                        <div class="flex flex-col items-center">
+                            <span
+                                class="text-center uppercase text-mygreen font-Nasalization text-5xl leading-tight tracking-backdropwide font-bold opacity-30">at
+                                alien
+                                media</span>
+                            <span
+                                class="text-center uppercase text-mygreen font-Nasalization text-5xl leading-tight font-bold -mt-6">at
+                                alien
+                                media</span>
+                        </div>
+                        <div class="w-16 border-b-2">
+                        </div>
+                        <p class="text-white text-center font-Nasalization text-base">We believe your brand has
+                            a unique
+                            story to tell. As
+                            a<br />client, you have many
+                            challenges in
+                            advertising. Guiding<br />the promotion of your product, to inform and
+                            satisfy<br />your
+                            customer base
+                            and to ensure successful sales. At<br />Alien Media we can help your brand tell its
+                            story
+                            and<br />make your products desirable. Alien Media success<br />relies upon our
+                            clients success.
+                        </p>
                     </div>
-                    <p class="text-white text-center">We believe your brand has a unique story to tell. As
-                        a<br />client, you have many
-                        challenges in
-                        advertising. Guiding<br />the promotion of your product, to inform and satisfy<br />your
-                        customer base
-                        and to ensure successful sales. At<br />Alien Media we can help your brand tell its story
-                        and<br />make your products desirable. Alien Media success<br />relies upon our clients success.
-                    </p>
+                    <div class="w-1/2 opacity-0">
+                        asdasd
+                    </div>
                 </div>
-                <div class="w-1/2 opacity-0">
-                    asdasd
+                <div class="mb-10">
+                    <div class="text-white container mx-auto pb-5 pt-10">
+                        <span class="uppercase text-2xl font-bold font-Nasalization">more products</span>
+                    </div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper text-white">
+                            <div class="swiper-slide bg-cover group w-10/12"
+                                style="background-image: url('./assets/slide1.png');height: 14rem;">
+                                <div onclick="window.location.replace('http://www.w3schools.com')"
+                                    class=" bg-black h-full bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 cursor-pointer transition-all duration-200">
+                                    <i class="fad fa-play text-4xl border-2 rounded-full py-6 px-7 animate-bounce"></i>
+                                </div>
+                            </div>
+                            <div class="swiper-slide bg-cover group"
+                                style="background-image: url('./assets/slide2.png');height: 14rem;">
+                                <div onclick="window.location.replace('http://www.w3schools.com')"
+                                    class=" bg-black h-full bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 cursor-pointer transition-all duration-200">
+                                    <i class="fad fa-play text-4xl border-2 rounded-full py-6 px-7 animate-bounce"></i>
+                                </div>
+                            </div>
+                            <div class="swiper-slide bg-cover group"
+                                style="background-image: url('./assets/slide3.png');height: 14rem;">
+                                <div onclick="window.location.replace('http://www.w3schools.com')"
+                                    class=" bg-black h-full bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 cursor-pointer transition-all duration-200">
+                                    <i class="fad fa-play text-4xl border-2 rounded-full py-6 px-7 animate-bounce"></i>
+                                </div>
+                            </div>
+                            <div class="swiper-slide bg-cover group"
+                                style="background-image: url('./assets/slide4.png');height: 14rem;">
+                                <div onclick="window.location.replace('http://www.w3schools.com')"
+                                    class=" bg-black h-full bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 cursor-pointer transition-all duration-200">
+                                    <i class="fad fa-play text-4xl border-2 rounded-full py-6 px-7 animate-bounce"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-button-prev" style="color: white;"></div>
+                        <div class="swiper-button-next" style="color: white;"></div>
+                    </div>
+                </div>
+                <div class="flex text-white justify-center items-center gap-3 cursor-pointer">
+                    <a href="#secondPage">
+                        <div class="flex flex-col items-center gap-5">
+                            <i class="fal fa-mouse-alt text-2xl"></i>
+                            <span class="uppercase text-xl font-Nasalization">scroll to continue</span>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="mb-10">
-                <div class="text-white container mx-auto pb-5 pt-10">
-                    <span class="uppercase text-2xl font-bold font-Nasalization">more products</span>
-                </div>
-                <div class="swiper-container">
-                    <div class="swiper-wrapper text-white">
-                        <div class="swiper-slide bg-cover group w-10/12"
-                            style="background-image: url('./assets/slide1.png');height: 14rem;">
-                            <div onclick="window.location.replace('http://www.w3schools.com')"
-                                class=" bg-black h-full bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 cursor-pointer transition-all duration-200">
-                                <i class="fad fa-play text-4xl border-2 rounded-full py-6 px-7 animate-bounce"></i>
-                            </div>
+            <!-- Service -->
+            <div class="section bg-cover" id="section2" style="background-image: url('./assets/service-bg.png');">
+                <div class="container mx-auto">
+                    <div class="flex flex-row justify-between">
+                        <div class="w-1/2">
+                            <span class="uppercase font-Nasalization text-2xl text-white">our activities</span>
                         </div>
-                        <div class="swiper-slide bg-cover group"
-                            style="background-image: url('./assets/slide2.png');height: 14rem;">
-                            <div onclick="window.location.replace('http://www.w3schools.com')"
-                                class=" bg-black h-full bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 cursor-pointer transition-all duration-200">
-                                <i class="fad fa-play text-4xl border-2 rounded-full py-6 px-7 animate-bounce"></i>
+                        <div class="flex flex-col items-center gap-5 w-1/2">
+                            <div class="flex flex-col items-center">
+                                <span
+                                    class="text-center uppercase text-mygreen font-Nasalization text-5xl leading-tight tracking-backdropwide font-bold opacity-30">a
+                                    company<br />like no other</span>
+                                <span
+                                    class="text-center uppercase text-mygreen font-Nasalization text-5xl leading-tight font-bold -mt-24">a
+                                    company<br />like no other</span>
                             </div>
-                        </div>
-                        <div class="swiper-slide bg-cover group"
-                            style="background-image: url('./assets/slide3.png');height: 14rem;">
-                            <div onclick="window.location.replace('http://www.w3schools.com')"
-                                class=" bg-black h-full bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 cursor-pointer transition-all duration-200">
-                                <i class="fad fa-play text-4xl border-2 rounded-full py-6 px-7 animate-bounce"></i>
-                            </div>
-                        </div>
-                        <div class="swiper-slide bg-cover group"
-                            style="background-image: url('./assets/slide4.png');height: 14rem;">
-                            <div onclick="window.location.replace('http://www.w3schools.com')"
-                                class=" bg-black h-full bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 cursor-pointer transition-all duration-200">
-                                <i class="fad fa-play text-4xl border-2 rounded-full py-6 px-7 animate-bounce"></i>
+                            <div class="w-24 border-b-2"></div>
+                            <div>
+                                <p class="text-center text-white font-Nasalization">
+                                    Alien Media is an all purpose media company providing great production ideas
+                                    along with
+                                    practical methods on how to promote your product within budget and on
+                                    schedule. We are
+                                    not just a production company. At our very core, we are collaborators. A
+                                    professional
+                                    group of writers, directors, producers, artists, coders, thinkers and doers,
+                                    who embrace
+                                    the future. We work hard, and we love to have fun, combining the two creates
+                                    successful
+                                    results for us and for our clients.
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-button-prev" style="color: white;"></div>
-                    <div class="swiper-button-next" style="color: white;"></div>
                 </div>
             </div>
-            <div class="flex flex-col text-white justify-center items-center gap-3">
-                <i class="fal fa-mouse-alt text-2xl"></i>
-                <span class="uppercase text-xl">scroll to continue</span>
+            <div class="section" id="section3">
+                asdas
             </div>
-        </div>
-        <div class="section" id="section2">
-            asd
-        </div>
-        <div class="section" id="section3">
-            asdas
-        </div>
     </div>
 
 </body>
@@ -133,7 +186,8 @@
         anchors: ['firstPage', 'secondPage', '3rdPage', '4th'],
         navigation: true,
         navigationPosition: 'right',
-        navigationTooltips: ['First page', 'Second page', 'Third and last page'],
+        navigationTooltips: ['5', '4', '3', '2', '1'],
+        showActiveTooltip: true,
     });
     var swiper = new Swiper('.swiper-container', {
         slidesPerView: 4,

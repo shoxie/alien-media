@@ -26905,6 +26905,10 @@ video {
   letter-spacing: 0.1em;
 }
 
+.tracking-backdropwide {
+  letter-spacing: 0.3rem;
+}
+
 .select-none {
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -31350,7 +31354,11 @@ video {
 @font-face {
   font-family: 'Nasalization';
 
-  src: local('Nasalization'), url(./fonts/nasalization-rg.otf) format('otf');
+  src: url('./fonts/nasalization.eot?#iefix') format('embedded-opentype'), url('./fonts/nasalization.svg#Nasalization') format('svg'), url('./fonts/nasalization.woff') format('woff'), url('./fonts/nasalization.ttf') format('truetype');
+
+  font-weight: normal;
+
+  font-style: normal;
 }
 
 @media (min-width: 640px) {
@@ -57698,6 +57706,10 @@ video {
 
   .sm\:tracking-widest {
     letter-spacing: 0.1em;
+  }
+
+  .sm\:tracking-backdropwide {
+    letter-spacing: 0.3rem;
   }
 
   .sm\:select-none {
@@ -88424,6 +88436,10 @@ video {
     letter-spacing: 0.1em;
   }
 
+  .md\:tracking-backdropwide {
+    letter-spacing: 0.3rem;
+  }
+
   .md\:select-none {
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -119146,6 +119162,10 @@ video {
 
   .lg\:tracking-widest {
     letter-spacing: 0.1em;
+  }
+
+  .lg\:tracking-backdropwide {
+    letter-spacing: 0.3rem;
   }
 
   .lg\:select-none {
@@ -149872,6 +149892,10 @@ video {
     letter-spacing: 0.1em;
   }
 
+  .xl\:tracking-backdropwide {
+    letter-spacing: 0.3rem;
+  }
+
   .xl\:select-none {
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -180594,6 +180618,10 @@ video {
 
   .\32xl\:tracking-widest {
     letter-spacing: 0.1em;
+  }
+
+  .\32xl\:tracking-backdropwide {
+    letter-spacing: 0.3rem;
   }
 
   .\32xl\:select-none {

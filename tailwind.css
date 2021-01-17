@@ -2,7 +2,9 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-@font-face {
-  font-family: 'Nasalization';
-  src: local('Nasalization'), url(./fonts/nasalization-rg.otf) format('otf');
+@font-face { 
+	font-family: 'Nasalization'; 
+	src: url('./fonts/nasalization.eot?#iefix') format('embedded-opentype'), url('./fonts/nasalization.svg#Nasalization') format('svg'), url('./fonts/nasalization.woff') format('woff'), url('./fonts/nasalization.ttf') format('truetype'); 
+	font-weight: normal; 
+	font-style: normal;
 }

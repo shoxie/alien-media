@@ -9,6 +9,9 @@ module.exports = {
       colors: {
         mygreen: "#44D62C",
       },
+      letterSpacing: {
+        backdropwide: "0.3rem"
+      }
     },
   },
   variants: {
